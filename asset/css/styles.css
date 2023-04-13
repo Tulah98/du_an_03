@@ -460,3 +460,88 @@ a {
 .team .img-slide img {
     cursor: pointer;
 }
+
+/* ===cta=== */
+
+.cta {
+    margin-top: 170px;
+}
+
+.cta .content-cta {
+    position: relative;
+    background: #2E80CE;
+    height: 427px;
+}
+
+.cta .content-cta .image {
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}
+
+.cta .content-cta .cta__text {
+    width: 586px;
+    position: absolute;
+    right: 70px;
+    top: 76px;
+    
+}
+
+.cta .cta__text h2 {
+    max-width: 489px;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.cta .cta__text .desc {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #FFFFFF;
+    margin-top: 18px;
+}
+
+.cta .content-cta .app {
+    display: flex;
+    gap: 28px;
+    margin-top: 38px;
+}
+
+.cta .app a {
+    display: flex;
+    gap: 8px;
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+}
+
+.cta .app img {
+    margin-left: 10px;
+}
+
+.cta .app .text-top{
+    font-size: 6px;
+    margin-top: 7px;
+}
+
+.cta .app .text-bot {
+    font-size: 17px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    margin-right: 9px;
+}
+
+.cta .content-cta .play {
+    
+    
+}
+
+.cta .content-cta .app {
+    
+}
+
+.cta .app p {
+    color: #fff;
+}
