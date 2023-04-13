@@ -317,7 +317,6 @@ a {
 
 .work__list .card:hover {
     border: 16px solid #2E80CE;
-    cursor: pointer;
 
 }
 
@@ -398,6 +397,66 @@ a {
     margin-bottom: 53px;
 }
 
-.about__text .btn {
+/* ===team=== */
 
+.team {
+    margin-top: 170px;
+}
+
+.team .header-team h2 {
+    margin-bottom: 38px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 5rem;
+    letter-spacing: -0.02em;
+    color: #10375C;
+}
+
+.team .header-team .btn {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team .list-team {
+    display: flex;
+    gap: 34px;
+    margin-top: 70px;
+}
+
+.team .list-team .item {
+    flex: 1;
+}
+
+.team .list-team .item .image {
+    width: 270px;
+    height: 318px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.team .list-team h3 {
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #10375C;
+    margin-top: 12px;
+}
+
+.team .list-team p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.68;
+    text-align: center;
+    color: #575F66;
+}
+
+.team .img-slide {
+    margin-top: 38px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.team .img-slide img {
+    cursor: pointer;
 }
