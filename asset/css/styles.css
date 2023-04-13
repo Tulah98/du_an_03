@@ -132,7 +132,7 @@ a {
 }
 
 /* ===content-header=== */
-.confident .content {
+.header .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -191,4 +191,90 @@ a {
     border-radius: 0 6px 6px 0;
     height: 410px;
     width: 210px;
+}
+
+/* =====serverces==== */
+
+.services {
+    margin-top: 170px;
+}
+
+.services__header {
+    width: 468px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services__header h2 {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #10375C;
+}
+
+.services__header .desc {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    text-align: center;
+    color: #575F66;
+}
+
+.services__content {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+}
+
+.services__content .image {
+    object-fit: cover;
+    width: 570px;
+    height: 570px;
+    border-radius: 12px;
+}
+
+.services__content .group {
+
+}
+
+.services__content .group .card {
+    display: flex;
+    gap: 19px;
+    padding-right: 18px;
+}
+
+.services__content .group .card:hover {
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 14px 28px 0px #0000000D;
+    cursor: pointer;
+}
+
+.services__content .card img {
+    margin-left: 22px;
+}
+
+.services__content .card h2 {
+    margin-top: 21px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #10375C;
+}
+
+.services__content .card p {
+    margin-top: 8px;
+    margin-bottom: 21px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #575F66;
+    max-width: 351px;
+}
+
+.services__content .btn {
+    margin-top: 70px;
 }
