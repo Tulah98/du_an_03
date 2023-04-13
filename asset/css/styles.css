@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Sora';
+}
+
+/* ====comon====== */
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 205px;
+    height: 60px;
+    background: #2E80CE;
+    border-radius: 30px;
+}
+
+.header {
+    min-height: 100vh;
+    background: #10375C;
+}
+
+.confident {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo__img {
+    display: flex;
+    position: relative;
+    font-size: 0.6em;
+}
+
+.logo--big {
+    width: 3em;
+    height: 3em;
+    background: #2E80CE;
+    border-radius: 50%;
+}
+
+.logo--small {
+    position: absolute;
+    width: 1.6em;
+    height: 1.6em;
+    background: #FFFFFF;
+    border-radius: 50%;
+    top: 1.1em;
+    left: 1.1em;
+}
+
+.logo .text-logo {
+    color: #FFFFFF;
+    display: block;
+    margin-left: 9px;
+}
+
+.logo__text--top {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.logo__text--bot {
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: right;
+    line-height: 1.4rem;
+}
+
+.nav .menu {
+    display: flex;
+    gap: 42px;
+}
+
+.nav .menu li {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #C9D2DA;
+}
+
+.nav__btn {
+}
+
+.nav__btn a {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #C9D2DA;
+
+}
+
+.nav__btn > .btn-sign {
+    padding: 8px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 24px;
+    border: none;
+    margin-left: 28px;
+    background: #2E80CE;
+    cursor: pointer;
+}
+
+/* ===content-header=== */
+.confident .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 113px;
+    margin-top: 84px;
+}
+
+.content__text h1 {
+    font-weight: 600;
+    font-size: 7rem;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.content__text .desc {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #C9D2DA;
+    margin-top: 22px;
+}
+
+.content .contact {
+    display: flex;
+    gap: 38px;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.content .contact .phone {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #FFFFFF;
+}
+
+.content .content__img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.content .content__img .thumb {
+    width: 100%;
+    object-fit: cover;
+}
+
+.content .content__img .img-big {
+    border-radius: 6px;
+    height: 540px;
+    width: 330px;
+}
+
+.content .content__img .img-small {
+    border-radius: 0 6px 6px 0;
+    height: 410px;
+    width: 210px;
+}
