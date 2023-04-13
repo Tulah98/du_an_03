@@ -278,3 +278,70 @@ a {
 .services__content .btn {
     margin-top: 70px;
 }
+
+/* ====work===== */
+
+.works {
+    margin-top: 170px;
+}
+
+.work__header h2 {
+    font-weight: 600;
+    font-size: 5rem;
+    letter-spacing: -0.02em;
+    color: #10375C;
+    padding-top: 100px;
+}
+
+.work__header .desc {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #575F66;
+    margin-top: 18px;
+    max-width: 468px;
+}
+
+.work__list {
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+}
+
+.work__list .card {
+    border: 16px solid #EAF6FF;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+
+.work__list .card:hover {
+    border: 16px solid #2E80CE;
+    cursor: pointer;
+
+}
+
+.work__list .card .item {
+    margin: 59px 0 59px 58px;
+}
+
+.work__list .card h2 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 2.6rem;
+    color: #10375C;
+}
+
+.work__list .card .desc {
+    margin-top: 28px;
+    margin-bottom: 18px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #575F66;
+}
+
+.work__list .card .learn {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #2E80CE;
+}
