@@ -333,6 +333,7 @@ a {
 
 .work__list .card:hover {
   border: 16px solid #2e80ce;
+  transform: translateY(-16px);
 }
 
 .work__list .card .item {
