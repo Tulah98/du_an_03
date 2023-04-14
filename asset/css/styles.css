@@ -616,3 +616,142 @@ a {
 }
 
 
+/* ===appointment=== */
+ 
+.appointment {
+    margin-top: 170px;
+ }
+
+.appointment .ct-appointment {
+    background: #F7FBFF;
+    padding-bottom: 115px;
+
+ }
+
+.appointment .ct-appointment h1 {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #10375C;
+    padding-top: 100px;
+}
+
+.appointment .ct-appointment .space {
+    display: flex;
+    width: 136px;
+    height: 2px;
+    background: #2E80CE;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+}
+
+.appointment .ct-appointment p {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #575F66;
+    max-width: 617px;
+    margin: 18px auto 38px auto;
+}
+
+.appointment .ct-appointment a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===footer=== */
+.footer {
+    margin-top: 170px;
+    background: #10375C;
+}
+
+.footer .footer__content {
+    padding-top: 82px;
+    display: flex;
+    gap: 78px;
+}
+
+.footer .footer__content .logo-footer {
+  margin-top: 18px;
+   
+}
+
+.footer__content .support {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__content p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #A9B3BB;
+    margin-top: 21px;
+}
+
+.footer__content h3 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.footer__content a {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #A9B3BB;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+.footer__content .inter {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.footer__content .sub {
+    margin-top: 10px;
+}
+
+.footer__content input {
+    width: 212px;
+    height: 46px;
+    border: 1px solid #406181;
+    border-radius: 4px;
+    border: 1px solid #406181
+}
+
+.footer__content .btn__footer {
+    display: inline;
+    padding: 10px 21px;
+    background: #2E80CE;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.footer__space {
+    width: 100%;
+    height: 1px;
+    background: #406181;
+    margin-top: 28px;
+}
+
+.footer .copyright {
+    display: block;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.6;
+    text-align: center;
+    color: #AAB3BA;
+    margin: 28px auto 0 auto;
+    padding-bottom: 42px;
+}
